@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/api")
 public class GreetingController {
 
-    @GetMapping("/saludo")
+    @GetMapping("/greeting")
     public String saludar(){
         return "Estoy saludando desde el grupo 1";
     }
