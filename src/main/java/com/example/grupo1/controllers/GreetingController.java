@@ -6,11 +6,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/api")
+@RequestMapping("/api1")
 @CrossOrigin(origins = "http://localhost:5173")
 public class GreetingController {
 
-    @GetMapping("/greeting")
+    @GetMapping("/saludos")
     public String saludar(){
         return "Estoy saludando desde el grupo 1";
     }
