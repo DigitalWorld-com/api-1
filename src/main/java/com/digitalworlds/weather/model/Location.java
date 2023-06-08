@@ -3,14 +3,18 @@ package com.digitalworlds.weather.model;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import lombok.ToString;
 
-import java.time.LocalDateTime;
-import java.util.HashMap;
+import java.math.BigDecimal;
 
 @NoArgsConstructor
 @AllArgsConstructor
 @Data
-public class WeatherDetail {
-    private LocalDateTime startTime;
-    private HashMap<String, String> temperature;
+@ToString
+public class Location {
+
+    private String longitude;
+    private String latitude;
+    private String name;
+
 }

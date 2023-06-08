@@ -1,11 +1,11 @@
-package com.digitalworlds.weather.dto;
+package com.digitalworlds.weather.timeline.dto;
 
 import lombok.*;
 
 @NoArgsConstructor
 @AllArgsConstructor
 @Data
-public class WeatherDTO {
+public class TimelineDTO {
 
     private String location;
     private String fields;

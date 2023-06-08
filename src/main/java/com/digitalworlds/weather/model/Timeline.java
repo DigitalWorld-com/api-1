@@ -12,11 +12,11 @@ import java.util.List;
 @AllArgsConstructor
 @Data
 @ToString
-public class Weather {
+public class Timeline {
 
     private String timestep;
     private LocalDateTime endTime;
     private LocalDateTime startTime;
-    private List<WeatherDetail> intervals;
+    private List<TimelineDetail> intervals;
 
 }
