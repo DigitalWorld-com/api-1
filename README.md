@@ -1,7 +1,7 @@
 # Api para consultar el clima
 
 * Permite elegir la ciudad cuya temperatura desea visualizarse
-* La card cambia de color de acuerdo a la temperatura mostrada
+* La card cambia de color de acuerdo a la temperatura de la localidad seleccionada
 
 </br>
 </br>
