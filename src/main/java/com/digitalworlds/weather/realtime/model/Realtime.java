@@ -1,12 +1,9 @@
-package com.digitalworlds.weather.model;
+package com.digitalworlds.weather.realtime.model;
 
-import com.digitalworlds.weather.model.Location;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
-
-import java.math.BigDecimal;
 
 @NoArgsConstructor
 @AllArgsConstructor

@@ -1,6 +1,6 @@
 package com.digitalworlds.weather.realtime.controller;
 
-import com.digitalworlds.weather.model.Realtime;
+import com.digitalworlds.weather.realtime.model.Realtime;
 import com.digitalworlds.weather.realtime.dto.RealtimeDTO;
 import com.digitalworlds.weather.realtime.service.RealtimeService;
 import lombok.AllArgsConstructor;

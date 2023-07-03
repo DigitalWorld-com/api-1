@@ -1,9 +1,8 @@
-package com.digitalworlds.weather.mapper;
+package com.digitalworlds.weather.realtime.mapper;
 
-import com.digitalworlds.weather.model.Location;
-import com.digitalworlds.weather.model.Realtime;
+import com.digitalworlds.weather.realtime.model.Location;
+import com.digitalworlds.weather.realtime.model.Realtime;
 
-import java.math.BigDecimal;
 import java.util.HashMap;
 
 public class RealtimeMapper {

@@ -1,11 +1,11 @@
-package com.digitalworlds.weather.realtime.service;
+package com.digitalworlds.weather.realtime.service.impl;
 
-import com.digitalworlds.weather.mapper.RealtimeMapper;
-import com.digitalworlds.weather.model.Realtime;
+import com.digitalworlds.weather.realtime.mapper.RealtimeMapper;
+import com.digitalworlds.weather.realtime.model.Realtime;
 import com.digitalworlds.weather.realtime.dto.RealtimeDTO;
-import com.digitalworlds.weather.realtime.service.feign.RealTimeWeatherAPICLient;
-import com.digitalworlds.weather.realtime.service.feign.RealtimeTomorrowAPIClient;
-import lombok.AllArgsConstructor;
+import com.digitalworlds.weather.realtime.feign.RealTimeWeatherAPICLient;
+import com.digitalworlds.weather.realtime.feign.RealtimeTomorrowAPIClient;
+import com.digitalworlds.weather.realtime.service.RealtimeService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;

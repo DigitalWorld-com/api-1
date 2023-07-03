@@ -1,4 +1,4 @@
-package com.digitalworlds.weather.model;
+package com.digitalworlds.weather.realtime.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
