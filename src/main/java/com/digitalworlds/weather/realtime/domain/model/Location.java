@@ -1,15 +1,14 @@
-package com.digitalworlds.weather.realtime.model;
+package com.digitalworlds.weather.realtime.domain.model;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
-import lombok.ToString;
+import lombok.*;
 
 import java.math.BigDecimal;
 
 @NoArgsConstructor
 @AllArgsConstructor
-@Data
+@Getter
+@Setter
+@Builder
 @ToString
 public class Location {
 
