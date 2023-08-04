@@ -25,8 +25,8 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter{
                 .cors()
                 .and()
                 .authorizeRequests()
-                .antMatchers(HttpMethod.GET, "/realtime/history").hasRole("USER")
-                //.antMatchers(HttpMethod.GET, "/realtime/history").hasRole("ADMIN")
+                .antMatchers(HttpMethod.GET, "/realtime").authenticated()//.hasRole("USER")
+                .antMatchers(HttpMethod.GET, "/realtime/history").hasRole("ADMIN")
                 //.antMatchers(HttpMethod.GET, "/realtime/history").permitAll()
                 .anyRequest()
                 //.permitAll()
@@ -55,7 +55,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter{
                 .roles("ADMIN")
                 .build();
 
-        InMemoryUserDetailsManager userDetailsManager = new InMemoryUserDetailsManager(usuario);
+        InMemoryUserDetailsManager userDetailsManager = new InMemoryUserDetailsManager(usuario, admin);
 
         return userDetailsManager;
     }
